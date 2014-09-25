@@ -1,4 +1,4 @@
-require 'paypal-sdk-merchant'
+#require 'paypal-sdk-merchant'
 module Spree
   class Gateway::PayPalExpress < Gateway
     preference :login, :string
