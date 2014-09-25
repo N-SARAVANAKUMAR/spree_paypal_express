@@ -1,7 +1,7 @@
-#require 'paypal-sdk-merchant'
+require 'paypal-sdk-merchant'
 module Spree
   class Gateway::PayPalExpress < Gateway
-    preference :login, :string
+    preference :login1, :string
     preference :password, :string
     preference :signature, :string
     preference :server, :string, default: 'sandbox'
