@@ -8,7 +8,7 @@ module Spree
     preference :solution, :string, default: 'Mark'
     preference :landing_page, :string, default: 'Billing'
     preference :logourl, :string, default: ''
-
+preference :test_mode, :boolean, default: true
     def supports?(source)
       true
     end
